@@ -1,12 +1,9 @@
-div.onclick(changeBackgroundColorToBlue());
-div.onclick(changeBackgroundColorToWhite());
-
-function changeBackgroundColorToBlue(){
+function changeBackgroundColorToBlue() {
   // No need to change the content of this function. Don't worry if this code is new to you.
-  $("body").css("background", "blue");
+  document.body.style.backgroundColor = 'blue';
 }
 
-function changeBackgroundColorToWhite(){
+function changeBackgroundColorToRed() {
   // No need to change the content of this function. Don't worry if this code is new to you.
-  $("body").css("background", "white");
+  document.body.style.backgroundColor = 'red';
 }
